@@ -1,7 +1,8 @@
 ## Golangで
-## MiniLispを作ってみた
+## 小さなLispインタプリタ
+## を作ってみた
 ### 0x64物語 Reboot \#09
-### @otakumesi
+@otakumesi
 
 ---
 
