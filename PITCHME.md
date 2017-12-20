@@ -1,4 +1,4 @@
-# 小さなLispインタプリタを作ってみた
+# Golangで小さなLispインタプリタを作ってみた
 ## 0x64物語 Reboot \#09
 ## @otakumesi
 
@@ -12,17 +12,13 @@
 
 ---
 
-<center>
-
 # Lisp
-
-</center>
 
 ---
 
 ## Lisp
-<font color="red">LIS</font>t <font color="red">P</font>rocessorを略した名称に由来しています。  
-その名の通りリスト処理が得意な言語です。
+<font color="red">LIS</font>t <font color="red">P</font>rocessorを略した名称に由来
+その名の通りリスト処理が得意な言語
 
 ---
 
@@ -36,7 +32,8 @@
 ---
 
 ## Lispの構文は木構造
-ちゃんとインデントをつけてみてみると、木構造に見えてきませんか？
+ちゃんとインデントをつけてみてみると、
+木構造に見えてきませんか？
 ```lisp
 (+
   (* 1
@@ -49,8 +46,8 @@
 ---
 
 ## Lispの構文は木構造
-Lispの構文のS式はそのまま構文木になる
-<pre>
+Lispの構文のS式はそのまま構文木になります
+<pre style="width: 300px">
 
      +
    /   \
@@ -64,15 +61,39 @@ Lispの構文のS式はそのまま構文木になる
 
 ---
 
-# Lispを実装してみた話
+# GolangでLispを実装した話
 
 ---
 
-# 開発に使った言語
-<center>
+GolangでLispを実装した動機
+<li></li>
+<li></li>
+<li></li>
 
-![Golang](/Users/otakumesi/Documents/0x64-reboot-tree-slide/imgs/gopher-side_color.png)
-</center>
+---
+
+# GolangでLispを実装した動機
+
+* Golangを学び始めて作りたいものが欲しかった
+<li></li>
+<li></li>
+
+---
+
+# Lispを実装した話
+
+- Golangを学び始めて勉強になりそうな題材が欲しかった
+- (元)Emacs使いとしては、Lispを開発することは長年の夢
+<li></li>
+
+---
+
+# Lispを実装した話
+
+- Golangを学び始めて勉強になりそうな題材が欲しかった
+- (元)Emacs使いとしては、Lispを開発することは長年の夢
+- 0x64物語のお題が「木」だった
+<li></li>
 
 ---
 
@@ -84,20 +105,27 @@ Lispの構文のS式はそのまま構文木になる
 
 # 感想
 
+書き始めは演算子オーバーロードとかジェネリックが欲しいなとか、生粋のGopherの目の前で言ったら後ろから刺されそうな文句をブツブツ言ってました。
+
+---
+
+# 感想
+
+でも、Goを書いてるといつの間にか心地よくなってきて、そんなことどうでもよくなるので大丈夫でした（？）
 
 ---
 
 # せっかくなのでHTMLを書いてみた
-![](/Users/otakumesi/Desktop/スクリーンショット%202017-12-03%2012.34.47.png)
+![](./imgs/lisphtml.png)
 
 ---
 
-# Apex（Golang）を使ってAWS LambdaからLispでHelloをWorldした図（？）
+Golang経由でLambdaからLispのHTMLでHelloWorldした図（？）
 
-![](/Users/otakumesi/Desktop/スクリーンショット%202017-12-03%2012.34.00のコピー.png)
+![](./imgs/helloworld.png)
 
 ---
 
-# これをツイートしたらmattnさんにRTされた
+これをツイートしたらmattnさんにRTされて、こんなコメントを貰えたので満足しました
 
-![](/Users/otakumesi/Desktop/daretoku.png)
+![](./imgs/daretoku.png)
