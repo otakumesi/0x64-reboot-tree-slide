@@ -28,6 +28,7 @@ Haskell共和国と戦争中らしい（Land of Lispによると）
 
 ![lispエイリアン_1](./imgs/lisplogo_alien_256.png)
 ![lispエイリアン_2](./imgs/lisplogo_warning_256.png)
+![lispエイリアン_3](./imgs/lisplogo_256.png)
 
 ---
 
@@ -56,6 +57,9 @@ Haskell共和国と戦争中らしい（Land of Lispによると）
 
 ## Lispの構文は木構造
 Lispの構文のS式はそのまま構文木になります
+
+<pre style="width: 130px;"><code class="lang-lisp hljs"><span class="line">(<span class="hljs-name">+</span></span><span class="line">  (<span class="hljs-name">*</span> <span class="hljs-number">1</span></span><span class="line">    (<span class="hljs-name">+</span> <span class="hljs-number">3</span> <span class="hljs-number">4</span>))</span><span class="line">  (<span class="hljs-name">-</span> <span class="hljs-number">5</span></span><span class="line">    (<span class="hljs-name">/</span> <span class="hljs-number">10</span> <span class="hljs-number">5</span>)))</span><span class="line"><span class="hljs-comment">;; =&gt; 10</span></span></code></pre>
+
 <pre style="width: 130px">
 
      +
