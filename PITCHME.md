@@ -121,11 +121,11 @@ LambdaからHelloWorldした図（？）
 
 ---
 
-これをツイートしたらmattnさんにRTされて、  
+これをツイートしたらmattnさんに、  
 こんなコメントを貰えたので僕は満足しました
+
+![](./imgs/daretoku.png)
 
 ---
 
 # 終わり
-
-![](./imgs/daretoku.png)
