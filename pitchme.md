@@ -64,11 +64,40 @@ Lispの構文のS式はそのまま構文木になる
 
 ---
 
-# 今回のテーマですが
-# 「GolangでLispを実装してみた話です」
+# Lispを実装してみた話
 
 ---
 
-# デモ
+# 開発に使った言語
+<center>
+
+![Golang](/Users/otakumesi/Documents/0x64-reboot-tree-slide/imgs/gopher-side_color.png)
+</center>
+
+---
+
+# デモ（REPL）
 
 ![lispon](./imgs/lispon.gif)
+
+---
+
+# 感想
+
+
+---
+
+# せっかくなのでHTMLを書いてみた
+![](/Users/otakumesi/Desktop/スクリーンショット%202017-12-03%2012.34.47.png)
+
+---
+
+# Apex（Golang）を使ってAWS LambdaからLispでHelloをWorldした図（？）
+
+![](/Users/otakumesi/Desktop/スクリーンショット%202017-12-03%2012.34.00のコピー.png)
+
+---
+
+# これをツイートしたらmattnさんにRTされた
+
+![](/Users/otakumesi/Desktop/daretoku.png)
