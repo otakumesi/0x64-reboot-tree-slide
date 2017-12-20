@@ -17,8 +17,9 @@
 ---
 
 ## Lisp
+やたらカッコが多いとかで敬遠されがちな言語。
+「神の言語」とか言われる。
 <font color="red">LIS</font>t <font color="red">P</font>rocessorを略した名称に由来  
-その名の通りリスト処理が得意な言語
 
 ---
 
@@ -47,7 +48,7 @@
 
 ## Lispの構文は木構造
 Lispの構文のS式はそのまま構文木になります
-<pre style="width: 300px;text-align: center;">
+<pre style="width: 100px">
 
      +
    /   \
