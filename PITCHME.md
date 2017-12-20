@@ -18,9 +18,9 @@
 
 ## Lisp
 カッコが多いとかで敬遠されがちな言語。  
-マスコットキャラであるLispエイリアンがGopher君みたいに可愛い。  
-Haskell共和国と戦争中らしい（Land of Lispによると）  
-<font color="red">LIS</font>t <font color="red">P</font>rocessorを略した名称に由来  
+マスコットキャラのLispエイリアンが可愛い。  
+Haskell共和国と戦争中らしい（某書によると）  
+<font color="red">LIS</font>t <font color="red">P</font>rocessorを略した名称に由来。  
 
 ---
 
@@ -61,7 +61,6 @@ Lispの構文のS式はそのまま構文木になります
 <pre style="width: 130px;display:inline-block;"><code class="lang-lisp hljs"><span class="line">(<span class="hljs-name">+</span></span><span class="line">  (<span class="hljs-name">*</span> <span class="hljs-number">1</span></span><span class="line">    (<span class="hljs-name">+</span> <span class="hljs-number">3</span> <span class="hljs-number">4</span>))</span><span class="line">  (<span class="hljs-name">-</span> <span class="hljs-number">5</span></span><span class="line">    (<span class="hljs-name">/</span> <span class="hljs-number">10</span> <span class="hljs-number">5</span>)))</span><span class="line"><span class="hljs-comment">;; =&gt; 10</span></span></code></pre>
 
 <pre style="width: 130px;display:inline-block;">
-
      +
    /   \
   *     -
@@ -69,76 +68,59 @@ Lispの構文のS式はそのまま構文木になります
 1   +  5  ÷
    / \   / \
   3   4 10  5
-
 </pre>
 
 ---
 
-# GolangでLispを実装した話
+# GolangでLispを
+# 実装した話
 
 ---
 
-GolangでLispを実装した動機
-<li></li>
-<li></li>
-<li></li>
+## 動機
 
----
-
-# GolangでLispを実装した動機
-
-* Golangを学び始めて作りたいものが欲しかった
-<li></li>
-<li></li>
-
----
-
-# Lispを実装した話
-
-- Golangを学び始めて勉強になりそうな題材が欲しかった
-- (元)Emacs使いとしては、Lispを開発することは長年の夢
-<li></li>
-
----
-
-# Lispを実装した話
-
-- Golangを学び始めて勉強になりそうな題材が欲しかった
-- (元)Emacs使いとしては、Lispを開発することは長年の夢
+- Golangを学び始めてたので良い題材が欲しかった
+- (元)Emacs使いとしての目標の一つだった
 - 0x64物語のお題が「木」だった
-<li></li>
 
 ---
 
-# デモ（REPL）
+## デモ（REPL）
 
 ![lispon](./imgs/lispon.gif)
 
 ---
 
-# 感想
+## 感想
 
-書き始めは演算子オーバーロードとかジェネリックが欲しいなとか、生粋のGopherの目の前で言ったら後ろから刺されそうな文句をブツブツ言ってました。
-
----
-
-# 感想
-
-でも、Goを書いてるといつの間にか心地よくなってきて、そんなことどうでもよくなるので大丈夫でした（？）
+書き始めは演算子オーバーロードとかジェネリックが欲しいなとか、  
+生粋のGopherの目の前で言ったら後ろから刺されそうな文句をブツブツ言ってました。
 
 ---
 
-# せっかくなのでHTMLを書いてみた
+## 感想
+
+でも、Goを書いてるといつの間にか心地よくなってきて、そんなことどうでもよくなりました（？）
+
+---
+
+## せっかくなのでHTMLを書いてみた
 ![](./imgs/lisphtml.png)
 
 ---
 
-Golang経由でLambdaからLispのHTMLでHelloWorldした図（？）
+Golang経由でLambdaから  
+Lispで書いたHTMLでHelloWorldした図（？）
 
 ![](./imgs/helloworld.png)
 
 ---
 
-これをツイートしたらmattnさんにRTされて、こんなコメントを貰えたので満足しました
+これをツイートしたらmattnさんにRTされて、  
+こんなコメントを貰えたので僕は満足しました
+
+---
+
+# 終わり
 
 ![](./imgs/daretoku.png)
