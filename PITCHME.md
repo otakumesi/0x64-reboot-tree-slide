@@ -17,9 +17,17 @@
 ---
 
 ## Lisp
-やたらカッコが多いとかで敬遠されがちな言語。
-「神の言語」とか言われる。
+カッコが多いとかで敬遠されがちな言語。
+マスコットキャラであるLispエイリアンがGopher君みたいに可愛い。
+Haskell共和国と戦争中らしい（Land of Lispによると）
 <font color="red">LIS</font>t <font color="red">P</font>rocessorを略した名称に由来  
+
+---
+
+## Lispエイリアン
+
+![lispエイリアン_1](./imgs/lisplogo_alien_256.png)
+![lispエイリアン_2](./imgs/lisplogo_warning_256.png)
 
 ---
 
@@ -48,7 +56,7 @@
 
 ## Lispの構文は木構造
 Lispの構文のS式はそのまま構文木になります
-<pre style="width: 100px">
+<pre style="width: 130px">
 
      +
    /   \
