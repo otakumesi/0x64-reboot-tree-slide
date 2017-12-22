@@ -124,7 +124,7 @@ Lispの構文のS式はそのまま構文木になります
 
 ---
 
-# オプション引数
+### オプション引数の代替
 
 FunctionalOptionPatternを使って解決した
 ```
@@ -134,6 +134,10 @@ func Rhs(rhs Evaler)error {
   return func(*Sexpr)error {
     return s.SetRhs(rhs)
   }
+}
+
+func NewSexpr(opts ...Option) {
+  ...
 }
 ```
 ---
