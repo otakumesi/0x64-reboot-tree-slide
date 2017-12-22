@@ -117,10 +117,25 @@ Lispの構文のS式はそのまま構文木になります
 ### 開発中にGolangに対して思ったこと
 
 * メソッドオーバーロード欲しい
-* 例外ほしい
+* オプション引数欲しい
+* 例外欲しい
 
 (生粋のGopherさんにマサカリ投げられそう)
 
+---
+
+# オプション引数
+
+FunctionalOptionPatternを使って解決した
+```
+type Option func(*Sexpr)error
+
+func Rhs(rhs Evaler)error {
+  return func(*Sexpr)error {
+    return s.SetRhs(rhs)
+  }
+}
+```
 ---
 
 ## でも、最終的に...
